@@ -1,0 +1,92 @@
+ *{
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+ }
+
+ body{
+	background-color: rgb(247, 253, 235);
+ }
+
+ .img-fluid{
+    padding: 0px;
+	margin: 0px;
+	width: 100%;
+	 height: 100%;	
+	position:absolute ;
+	opacity: 0.4;
+	
+
+}
+.img-fluid1{
+    height: 700px;
+	width: 100%;
+	position: absolute;
+	opacity: 0.4;
+	margin-top: 1130px;
+
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+
+#historia{
+color:rgb(214, 200, 0);
+border-color:10px solid black;
+
+}
+#historia:hover{
+	color: rgb(4, 24, 117);
+}
+
+.navbar {
+	padding: 2px;
+	background-color: yellow;
+}
+
+.navbar-collapse{
+	align-items: center;
+	justify-content: space-between;
+	
+
+}
+.table{
+	margin: -10% 30%;
+}
+.img-plantilla {
+	position: absolute;
+	margin: 0px;
+	width: 500px;
+	height: 800px;
+	border: 10px solid;
+}
+
+.plantilla{
+	position: relative;
+	margin: 600px 50px;
+	display: grid;
+	grid-template-columns: repeat(4,50px);
+	grid-template-rows: repeat(5,50px) ;
+	width: 300px;
+	height:500px;
+	border: 10px solid ;
+}
+
+.dt{
+	position: absolute;
+	width: 200px;
+	margin: -45% 70%;
+	padding: 10px;
+}
+
+.dt h4{
+	border-bottom: 1px solid black;
+}
+
+@media  screen and (max-width: 767px){
+	.navbar-brand {
+		display: none;
+	}
+}
